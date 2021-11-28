@@ -63,4 +63,7 @@ When your output grid is ready, click the green "Submit!" button to check your a
 
 After you've obtained the correct answer for the current test input grid, you can switch to the next test input grid for the task using the "Next test input" button (if there is any available; most tasks only have one test input).
 
-When you're done with a task, use the "load task" button to open a new task.
+When you're done with a task, use the "load task" button to open a new task. 
+
+### My code
+This repository contains the manual_solve.py, ARC train and test data. In manual_solve.py we have the code for three solver algorithms. Each solver takes in a grid of train data in order to train our algorithms to acquire ARC relevant cognitive priors. The data/training contains all the data file in .json format in a dictionary format of training data and test data. Our manual_solve.py takes in the .json files and divides the data in training set and test set. The algorithms in manual_solve.py will train using the training data set and output the grid according to the logic provided. The results are displayed of the input grid and the evaluated grid.
